@@ -1,8 +1,9 @@
 #!/bin/sh
 
 INTERVAL=5
-PREFIX=$INTERVAL-sec-status RUNFILE=/home/benchmarks/running
-mysql -e 'SHOW GLOBAL VARIABLES' >> mysql-variables
+PREFIX=$INTERVAL-sec-status
+RUNFILE=/home/benchmarks/running
+mysql -uroot -p1q2w3e4r5t -e 'SHOW GLOBAL VARIABLES' >> mysql-variables
 while test -e $RUNFILE; do
 	file=$(date +%F_%I)
 	sleep=$(date +%s.%N | awk "{print $INTERVAL - (\$1 % $INTERVAL)}") sleep $sleep
