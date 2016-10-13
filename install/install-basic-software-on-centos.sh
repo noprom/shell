@@ -13,5 +13,5 @@ yum -y install net-snmp net-snmp-devel net-snmp-utils vim git git-common
 yum -y install nc htop iotop iftop telnet wget curl
 yum -y remove mysql-server mysql httpd
 yum -y install ImageMagick-*
-yum -y install nginx Percona-Server-server-55 xtrabackup
-yum -y install php55w php55w-fpm php55w-common php55w-cli php55w-devel php55w-intl php55w-mysqlnd php55w-pdo php55w-soap php55w-tidy php55w-xml php55w-xmlrpc php55w-zts php55w-gd php55w-mbstring php55w-mcrypt php55w-pecl-zendopcache php55w-pear php55w-posix php55w-pecl-memcached php55w-pecl-memcache php55w-pecl-memcached php55w-mysqlnd php55w-pecl-redis
+yum -y install nginx Percona-Server-server-56 xtrabackup
+yum -y install php56w php56w-fpm php56w-common php56w-cli php56w-devel php56w-intl php56w-mysqlnd php56w-pdo php56w-soap php56w-tidy php56w-xml php56w-xmlrpc php56w-zts php56w-gd php56w-mbstring php56w-mcrypt php56w-pecl-zendopcache php56w-pear php56w-posix php56w-pecl-memcached php56w-pecl-memcache php56w-pecl-memcached php56w-mysqlnd php56w-pecl-redis
